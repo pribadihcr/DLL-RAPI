@@ -1,6 +1,18 @@
 # Deep Learning Libraries based Rest API
 
-Run Demo:
+### Deep Learning Libraries:
+- MTCNN face detection in TensorFlow
+- CTPN text detection in TensorFlow, Caffe
+- CRNN text recognition in PyTorch
+- Faster RCNN object detection in TensorFlow
+- YOLO in TensorFlow (DarkFlow)
+- DeepSort multiple person tracking in TensorFlow
+- Softmax and Triplet person re-identification in TensorFlow
+
+### Rest API
+- Person detection and Bibnumber detection in Marathon
+
+### Run Demo:
 
 ```sh
 DLL-RAPI$ sudo systemctl start apache2
