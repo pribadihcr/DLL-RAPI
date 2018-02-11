@@ -37,12 +37,12 @@ def get_models():
     global model_bibrecog
 
     if model_person is None:
-        model_person = person_faster_rcnn_tf('../models','mobilenet', '0')
+        model_person = person_faster_rcnn_tf('models_zoo','mobilenet', '0')
     if model_bibdetect is None:
         model_bibdetect = bibnumber_ctpn_tf('0')  # bibnumber_ctpn_caffe(args.dir_model, args.gpu_id)
-        model_bibdetect.load_model('../models')
+        model_bibdetect.load_model('models_zoo')
     if model_bibrecog is None:
-        model_bibrecog = bibnumber_crnn_pytorch('../models', '0')
+        model_bibrecog = bibnumber_crnn_pytorch('models_zoo', '0')
     return model_person, model_bibdetect, model_bibrecog
 
 # connect to Redis server
