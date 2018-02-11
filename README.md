@@ -1,6 +1,7 @@
 # Deep Learning Libraries based Rest API
 
 ### Deep Learning Libraries (DLL):
+- Modified SqueezeDet Multi-Task Learning (MTL) for Face detection, Landmark, Age, and Pose in TensorFlow
 - MTCNN face detection in TensorFlow
 - CTPN text detection in TensorFlow, Caffe
 - CRNN text recognition in PyTorch
