@@ -13,7 +13,7 @@
 - Tracking by Re-Identification
 - Face detection in RTSP stream
 
-### Rest API
+### Rest API:
 - Person detection and Bibnumber detection in Marathon
 
 ### Run Demo:
