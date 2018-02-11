@@ -7,12 +7,6 @@ from PIL import Image
 from glob import glob
 
 this_dir = os.path.dirname(__file__)
-# print(this_dir)
-# # Add lib to PYTHONPATH
-# lib_path = os.path.join(this_dir, 'BibnumberRecogition_CTPN_caffe/tools/')
-# add_path(lib_path)
-# lib_path = os.path.join(this_dir, 'BibnumberRecogition_CTPN_caffe/src/')
-# add_path(lib_path)
 
 if os.environ.get('CAFFE_MODE', False):
     sys.path.append(os.path.join(this_dir, 'BibnumberDetection_CTPN_caffe/tools/'))
