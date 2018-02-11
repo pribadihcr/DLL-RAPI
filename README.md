@@ -1,6 +1,6 @@
 # Deep Learning Libraries based Rest API
 
-### Deep Learning Libraries:
+### Deep Learning Libraries (DLL):
 - MTCNN face detection in TensorFlow
 - CTPN text detection in TensorFlow, Caffe
 - CRNN text recognition in PyTorch
@@ -8,6 +8,10 @@
 - YOLO object detection in TensorFlow (DarkFlow)
 - DeepSort multiple person tracking in TensorFlow
 - Softmax and Triplet person re-identification in TensorFlow
+
+### Example application using DLL:
+- Tracking by Re-Identification
+- Face detection in RTSP stream
 
 ### Rest API
 - Person detection and Bibnumber detection in Marathon
