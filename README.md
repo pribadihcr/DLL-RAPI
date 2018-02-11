@@ -5,7 +5,7 @@
 - CTPN text detection in TensorFlow, Caffe
 - CRNN text recognition in PyTorch
 - Faster RCNN object detection in TensorFlow
-- YOLO in TensorFlow (DarkFlow)
+- YOLO object detection in TensorFlow (DarkFlow)
 - DeepSort multiple person tracking in TensorFlow
 - Softmax and Triplet person re-identification in TensorFlow
 
