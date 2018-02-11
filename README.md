@@ -17,6 +17,9 @@
 - Person detection and Bibnumber detection in Marathon
 
 ### Run Demo:
+Examples using DLL: Please see the examples folder
+
+Rest API:
 
 ```sh
 DLL-RAPI$ sudo systemctl start apache2
